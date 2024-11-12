@@ -1,0 +1,19 @@
+
+td{
+    width: 45px;
+    height: 45px;
+    border: 1px solid rgba(0 ,0 , 0, 30%);
+    position: relative;
+}
+table{
+border-collapse: collapse;
+}
+.table2{
+    border-collapse: collapse;
+    margin-left: 300px;
+}
+.disabled{
+    opacity: 0.5;
+    cursor: not-allowed;
+    pointer-events: none;
+}

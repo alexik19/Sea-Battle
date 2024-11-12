@@ -1,0 +1,136 @@
+.ship1{
+    box-sizing:border-box;
+    width: 45px;
+    height: 45px;
+    cursor: move;
+    background-color: rgba(0,49,83,40%);
+    border: 2px inset blue;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.ship2{
+    box-sizing:border-box;
+    width: 45px;
+    height: 45px;
+    cursor: move;
+    background-color: rgba(0,49,83,40%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 2px inset blue;
+    z-index: 1;
+    width: 90px;
+}
+
+.ship22{
+    /*box-sizing:border-box;*/
+    /*width: 44px;*/
+    /*height: 44px;*/
+    /*cursor: move;*/
+    /*background-color: rgba(0,49,83,40%);*/
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    /*border: 2px inset blue;*/
+    /*border-left: none;*/
+    z-index: 0;
+    opacity: 0;
+    display: none;
+}
+.spec0{
+    cursor: move;
+    background-color: rgba(0,49,83,40%);
+    border: 1px inset blue;
+}
+/*.ship22:active {*/
+/*    width: 90px;*/
+/*    z-index: 12;*/
+/*    border: 2px inset blue;*/
+/*    background-color: #00315366;*/
+/*}*/
+
+/*.ship22:active{*/
+/*    box-sizing: border-box;*/
+/*    width: 46px;*/
+/*    position: absolute;*/
+/*    margin-right: 100px;*/
+/*    background-color: #00315366;*/
+/*}*/
+.ship2:active{
+    width: 89px;
+    background-color: #00315366;
+    border: 2px inset blue;
+
+}
+
+.ship3{
+    box-sizing:border-box;
+    height: 45px;
+    cursor: move;
+    background-color: rgba(0,49,83,40%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 135px;
+    border: 2px inset blue;
+}
+.spec{
+    cursor: move;
+    background-color: rgba(0,49,83,40%);
+    padding: 0;
+    margin: 0;
+    background-size: cover;
+}
+.spec2{
+    cursor: move;
+    background-color: rgba(0,49,83,40%);
+    padding: 0;
+    margin: 0;
+    background-size: cover;
+}
+.spec3{
+    cursor: move;
+    background-color: rgba(0,49,83,40%);
+    padding: 0;
+    margin: 0;
+    background-size: cover;
+}
+.spec4{
+    cursor: move;
+    background-color: rgba(0,49,83,40%);
+    padding: 0;
+    margin: 0;
+    background-size: cover;
+}
+
+.ship4{
+    box-sizing:border-box;
+    width: 45px;
+    height: 179px;
+    cursor: move;
+    background-color: rgba(0,49,83,40%);
+    border: 2px inset blue;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+.dragging{
+    background-color: red;
+}
+.ship2-spec-left{
+    cursor: move;
+    background-color: rgba(0,49,83,40%);
+    border: 1px inset blue;
+    border-right: none;
+}
+
+.ship2-spec-right{
+    cursor: move;
+    background-color: rgba(0,49,83,40%);
+    border: 1px inset blue;
+    border-left: none;
+}

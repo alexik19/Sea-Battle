@@ -1,0 +1,20 @@
+.button{
+    margin-left: 30px;
+    /* margin-right: 30px; */
+    cursor: pointer;
+    align-self: end;
+    font-size: 20px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: none;
+    color: whitesmoke;
+    transition: 700ms;
+    background-color: cadetblue;
+}
+.button:hover{
+    color: black;
+    box-shadow: 2px 2px 13px black;
+}
+.button:active{
+    transform: scale(0.7);
+}
